@@ -14,13 +14,15 @@ Clone the repository
 
 Install the requests library using pip
  
- `pip install requests`
+ ``pip install requests
+ ``
  
 Modify the 'charset' variable to include the set of characters used in the password hashes
 
 Run the script using the command 
 
-`python sql_injection_password_extractor.py`
+``python sql_injection.py
+``
 
 Input the user ID that you wish to extract the password hash for when prompted
 
